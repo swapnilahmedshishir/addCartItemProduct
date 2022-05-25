@@ -54,3 +54,6 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
+#total_price_btn{
+	color: red;
+}
