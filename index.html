@@ -15,23 +15,23 @@
 
    <section>
       <div class="container">
-         <h2>My shopping cart</h2>
+         <h2 class="text-center pt-5 text-success">Hey mr! your Shopping item </h2>
          <div class="cart">
             <div class="col-md-12 col-lg-10 mx-auto">
                <div class="cart-item">
                   <div class="row">
                      <div class="col-md-7 center-item">
                         <img src="images/product-1.png" alt="">
-                        <h5>iPhone 11 128GB Black</h5>
+                        <h5> Apple computer</h5>
                      </div>
 
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button id="phone-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input id="phone-number" type="number" min="0" class="form-control text-center" value="1">
-                           <button id="phone-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button id="computer_minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="computer_number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="computer_plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
                         </div>
-                        <h5>$<span id="phone-total">1219</span></h5>
+                        <h5>$<span id="computer_total">3010</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -41,16 +41,35 @@
                   <div class="row">
                      <div class="col-md-7 center-item mx-auto">
                         <img src="images/product-2.png" alt="">
-                        <h5>iPhone 11 Silicone Case - Black</h5>
+                        <h5>Mouse </h5>
                      </div>
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button id="case-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input id="case-number" type="number" min="0" class="form-control text-center" value="1">
-                           <button id="case-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button id="mouse_minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="mouse_number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="mouse_plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
 
                         </div>
-                        <h5>$<span id="case-total">59</span></h5>
+                        <h5>$<span id="mouse_total">350</span></h5>
+                        <img src="images/remove.png" alt="" class="remove-item">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="cart-item">
+                  <div class="row">
+                     <div class="col-md-7 center-item mx-auto">
+                        <img src="images/product-3.png" alt="">
+                        <h5>Keybord</h5>
+                     </div>
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="keybord_minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="keybord_number" type="number" min="0" class="form-control text-center" value="1">
+                           <button id="keybord_plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+
+                        </div>
+                        <h5>$<span id="keybord_total">150</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -59,27 +78,27 @@
                <div class="cart-item">
                   <div class="row">
 
-                     <div class="col-md-8">
+                     <div class="col-md-6 col-sm-6">
                         <h5>Subtotal: </h5>
                         <h5>Tax:</h5>
                         <h5>Total:</h5>
                      </div>
 
-                     <div class="col-md-4 status">
-                        <h5>$<span id="sub-total">1278</span></h5>
+                     <div class="col-md-6 col-sm-6 status">
+                        <h5>$<span id="sub-total">3510</span></h5>
                         <h5>$<span id="tax-amount">0</span></h5>
-                        <h5>$<span id="total-price">1278</span></h5>
+                        <h5>$<span id="total-price">3510</span></h5>
                      </div>
                   </div>
                </div>
                <div class="col-md-12 pt-4 pb-4">
-                  <button type="button" class="btn btn-success check-out">Check Out</button>
+                  <button id="check_out" type="button" class="btn btn-success check-out">Check Out</button>
                </div>
             </div>
          </div>
       </div>
    </section>
-   <script src="app.js"></script>
+   <script src="index.js"></script>
 </body>
 
 </html>
